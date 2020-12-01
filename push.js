@@ -18,7 +18,7 @@ let sub = {
   expirationTime: null,
   keys: {
     p256dh:
-      'BOuF_qFvqQ-NQvJKMkuLfS0WtRh7J4-ZEcqtEm1JKKFV7BsBabhzmGyA0Oj_11m2oK4W8rQqXpNqacZFH4yZpsI","auth":"vyAXFWlw-7gqiocPWvbJIA',
+      'BOuF_qFvqQ-NQvJKMkuLfS0WtRh7J4-ZEcqtEm1JKKFV7BsBabhzmGyA0Oj_11m2oK4W8rQqXpNqacZFH4yZpsI',
     auth: 'vyAXFWlw-7gqiocPWvbJIA'
   }
 };
