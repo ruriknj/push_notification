@@ -2,8 +2,8 @@ var push = require('web-push');
 
 let vapidKeys = {
   publicKey:
-    'BHebmqRIcMFi18L5VUNUXVxT3E5gcbxSsL7LPMPhAMnZslSlMilnJX7rAE-0ufoLY2lF6QQ1SERXPckKIw3gbng',
-  privateKey: 'PbR4vVQEWx3PskWh8RvMatOKpkXQplNgH3lcuundIck'
+    'BNaP6FcA_Y_hhW3k9Xm3zy6QBytgRj5wvXq_bNI9KHVahNXuLa8janxwvu-dR5gTZpYMmkknL6EmCuC2z-qSDGk',
+  privateKey: 'Hb5FgrePuJSzG4qdLGRc5p0F2fb8uO2E-EeGpK1hOFY'
 };
 
 push.setVapidDetails(
@@ -13,7 +13,7 @@ push.setVapidDetails(
 );
 
 let sub = {
-  endpoint:
+   endpoint:
     'https://fcm.googleapis.com/fcm/send/fwMG_ImcKYc:APA91bHtTnPUQ0tBehI7Kk1CGn4s3yhIKhJunhqiggl5XxbyVPmqxDkugwctQMzL2VDTrG_ypKwWqb1Djv-kqWbxpmsatPSjSAUldFENqCIZShaFvZFiCwH-X2hS0-Xjqv5mq2XYHcf9',
   expirationTime: null,
   keys: {
